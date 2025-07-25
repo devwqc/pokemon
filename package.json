@@ -11,6 +11,15 @@
     "format": "prettier . --write",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*.{html,json,md,yaml}": [
+      "prettier --write"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ]
+  },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
