@@ -4,4 +4,3 @@ pnpm-lock.yaml
 .pnpm-store
 .vercel
 .husky
-.vscode
